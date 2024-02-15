@@ -49,3 +49,23 @@ header .banner h2{
 
 
   }
+  a {
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: cyan;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    transition: 0.5s all ease;
+  }
+  a:hover {
+    box-shadow: 0 0 10px cyan,
+                0 0 20px cyan,
+                0 0 50px cyan;
+    color: #fff;
+     font-weight: bold; 
+     font-style: italic;  
+     font-family: sans-serif;  
+     cursor: pointer; 
+     letter-spacing: 2px;     
+  }
